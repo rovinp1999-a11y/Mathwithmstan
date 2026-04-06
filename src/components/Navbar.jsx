@@ -7,6 +7,7 @@ const navItems = [
   { label: 'Trigonometry', to: '/trigonometry' },
   { label: 'Algebra', to: '/algebra' },
   { label: 'Calculus', to: '/calculus' },
+  { label: 'Feedback', to: '/feedback' },
 ]
 
 export default function Navbar() {

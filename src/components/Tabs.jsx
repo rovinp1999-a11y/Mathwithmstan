@@ -13,16 +13,19 @@ export default function Tabs({ tabs, defaultTab = 0 }) {
 
   return (
     <div className="tabs-container">
-      <div className="tabs-bar">
-        {tabs.map((tab, i) => (
-          <button
-            key={i}
-            className={`tab-btn${active === i ? ' tab-active' : ''}`}
-            onClick={() => handleSwitch(i)}
-          >
-            {tab.label}
-          </button>
-        ))}
+      <div className="tabs-bar-wrap">
+        <div className="tabs-bar">
+          {tabs.map((tab, i) => (
+            <button
+              key={i}
+              className={`tab-btn${active === i ? ' tab-active' : ''}`}
+              onClick={() => handleSwitch(i)}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
+        <img src="/chibi-sit.png" alt="" className="tabs-chibi" aria-hidden="true" />
       </div>
       <div className="tab-content" key={animKey}>
         {tabs[active].content}

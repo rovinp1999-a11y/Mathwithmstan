@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Trigonometry from './pages/Trigonometry'
 import Algebra from './pages/Algebra'
 import Calculus from './pages/Calculus'
+import Feedback from './pages/Feedback'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/trigonometry" element={<Trigonometry />} />
         <Route path="/algebra" element={<Algebra />} />
         <Route path="/calculus" element={<Calculus />} />
+        <Route path="/feedback" element={<Feedback />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

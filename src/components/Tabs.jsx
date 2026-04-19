@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Tabs({ tabs, defaultTab = 0 }) {
+export default function Tabs({ tabs, defaultTab = 0, showChibi = true, variant = 'default' }) {
   const [active, setActive] = useState(defaultTab)
   const [animKey, setAnimKey] = useState(0)
 
@@ -12,7 +12,7 @@ export default function Tabs({ tabs, defaultTab = 0 }) {
   }
 
   return (
-    <div className="tabs-container">
+    <div className={`tabs-container tabs--${variant}`}>
       <div className="tabs-bar-wrap">
         <div className="tabs-bar">
           {tabs.map((tab, i) => (
@@ -25,7 +25,7 @@ export default function Tabs({ tabs, defaultTab = 0 }) {
             </button>
           ))}
         </div>
-        <img src="/chibi-sit.png" alt="" className="tabs-chibi" aria-hidden="true" />
+        {showChibi && <img src="/chibi-sit.png" alt="" className="tabs-chibi" aria-hidden="true" />}
       </div>
       <div className="tab-content" key={animKey}>
         {tabs[active].content}

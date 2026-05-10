@@ -554,9 +554,15 @@ function AlgebraPapers() {
 /* ================================================================
    CALCULUS
 ================================================================ */
-const calculusPapers = [2024, 2023, 2022, 2021]
-const calculusExamUrl = (y) => `https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/${y}/91262-exm-${y}.pdf`
-const calculusScheduleUrl = (y) => `https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/${y}/91262-ass-${y}.pdf`
+const calculusPapers = [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012]
+const calculusExamUrl = (y) => `/pdfs/calculus/nzqa/91262-exm-${y}.pdf`
+const calculusScheduleUrl = (y) => `/pdfs/calculus/nzqa/91262-ass-${y}.pdf`
+const calculusSolutionsUrl = {
+  2020: '/pdfs/calculus/nzqa/91262-exm-2020-drd-solutions-partial.pdf',
+  2019: '/pdfs/calculus/nzqa/91262-exm-2019-q3c-drd-solution.pdf',
+  2015: '/pdfs/calculus/nzqa/91262-exm-2015-drd-solutions.pdf',
+  2014: '/pdfs/calculus/nzqa/91262-exm-2014-drd-solutions.pdf',
+}
 
 function CalculusLessons() {
   return (
@@ -610,6 +616,34 @@ function CalculusPapers() {
   return (
     <>
       <section className="section">
+        <h2 className="section-title">Workbooks</h2>
+        <div className="cards">
+          <Card title="Nulake Calculus Workbook" links={[
+            { icon: <FileText />, text: 'Open Workbook', href: '/pdfs/calculus/workbooks/nulake-calculus.pdf' },
+          ]} />
+          <Card title="Calculus Greenbook (Achieve & Merit)" links={[
+            { icon: <FileText />, text: 'Open Workbook', href: '/pdfs/calculus/workbooks/greenbook.pdf' },
+          ]} />
+        </div>
+      </section>
+      <section className="section">
+        <h2 className="section-title">Revision Resources</h2>
+        <div className="cards">
+          <Card title="Achieve & Merit — Revision Sheets (with answers)" links={[
+            { icon: <FileText />, text: 'Open PDF', href: '/pdfs/calculus/revision/revision-sheets-with-answers.pdf' },
+          ]} />
+        </div>
+        <Collapsible title="Extra Online Resources & Further Exploration" links={[
+          { text: 'MathIsFun (For Explanation)', href: 'https://www.mathsisfun.com/calculus/' },
+          { text: 'SnedMaths', href: 'https://sites.google.com/view/snedmaths/level-2/2-7-calculus-methods' },
+          { text: 'QuickMaths (A, M, E differentiated questions)', href: 'https://www.quickmaths.co.nz/ncea-exam-resources/2-7-calculus' },
+          { text: 'ManvsMaths', href: 'https://www.manvsmaths.com/12/12_externals.html' },
+          { text: 'Infinity Plus One', href: 'https://sites.google.com/view/infinityplusone/level-2/2-7-calculus' },
+          { text: "CushlaThompson's YouTube Playlist", href: 'https://youtube.com/playlist?list=PLQpSTxqCx238Hgyvg6CqURz3GxN6M39ZX&si=Nfb--gOzww_vL92c' },
+        ]} />
+      </section>
+      <section className="section">
+        <h2 className="section-title">NZQA Past Papers</h2>
         <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
           Official NZQA examination papers for Achievement Standard 91262 (2.7 Calculus).
         </p>
@@ -620,6 +654,9 @@ function CalculusPapers() {
               <div className="paper-links">
                 <a href={calculusExamUrl(year)} target="_blank" rel="noopener noreferrer" className="paper-btn paper-btn--exam"><FileText /><span>Exam Paper</span></a>
                 <a href={calculusScheduleUrl(year)} target="_blank" rel="noopener noreferrer" className="paper-btn paper-btn--schedule"><FileText /><span>Assessment Schedule</span></a>
+                {calculusSolutionsUrl[year] && (
+                  <a href={calculusSolutionsUrl[year]} target="_blank" rel="noopener noreferrer" className="paper-btn paper-btn--schedule"><FileText /><span>Worked Solutions</span></a>
+                )}
               </div>
             </div>
           ))}
@@ -673,7 +710,7 @@ export default function MAT201() {
               <Tabs showChibi={false} tabs={[
                 { label: 'Lesson Content', content: <CalculusLessons /> },
                 { label: 'Skills', content: <CalculusSkills /> },
-                { label: 'Past Papers', content: <CalculusPapers /> },
+                { label: 'Revision Resources & Past Papers', content: <CalculusPapers /> },
               ]} />
             )
           },

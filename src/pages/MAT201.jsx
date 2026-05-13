@@ -730,13 +730,13 @@ function CalculusPapers() {
           <Card title="QuickMaths" note="A, M, E questions differentiated" links={[
             { icon: <Book />, text: 'Open Website', href: 'https://www.quickmaths.co.nz/ncea-exam-resources/2-7-calculus' },
           ]} />
-          <Card title="MathIsFun" note="Plain-English explanations and worked examples" links={[
+          <Card title="MathIsFun" note="Explanation for Calculus concepts" links={[
             { icon: <Book />, text: 'Open Website', href: 'https://www.mathsisfun.com/calculus/' },
           ]} />
-          <Card title="SnedMaths" note="Notes and worked examples for 2.7 Calculus methods" links={[
+          <Card title="SnedMaths" note="Extra exam-like practice papers" links={[
             { icon: <Book />, text: 'Open Website', href: 'https://sites.google.com/view/snedmaths/level-2/2-7-calculus-methods' },
           ]} />
-          <Card title="ManvsMaths" note="Comprehensive Level 2 externals notes" links={[
+          <Card title="ManvsMaths" note="Skills practice questions" links={[
             { icon: <Book />, text: 'Open Website', href: 'https://www.manvsmaths.com/12/12_externals.html' },
           ]} />
           <Card title="Infinity Plus One" note="Walkthroughs by Subash Chandar K (creator of the Skills videos)" links={[

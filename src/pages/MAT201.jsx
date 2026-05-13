@@ -607,44 +607,45 @@ function CalculusLessons() {
 }
 
 /* ----- Skills Tracking ----- */
+/* ----- Skills Tracking ----- */
 const calculusSkills = [
   { group: '1. Introduction & Gradient Functions' },
-  { name: 'a. Gradient revision', walker: 'p.6', youtube: '' },
-  { name: 'b. Gradient function of a parabola', walker: 'p.8', youtube: '' },
-  { name: 'c. Sketching gradient functions of curves', walker: 'p.9', youtube: '' },
-  { name: 'd. Calculus — the mathematics of change', walker: 'p.13', youtube: '' },
+  { name: 'a. Gradient revision', walker: 'p.6', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'b. Gradient function of a parabola', walker: 'p.8', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'c. Sketching gradient functions of curves', walker: 'p.9', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'd. Calculus — the mathematics of change (Introduction to Differentiation)', walker: 'p.13', youtube: '', cVideo: 'https://corbettmaths.com/2013/12/07/introduction-to-differentiation/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/07/Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/10/Differentiation-answers.pdf' },
 
   { group: '2. Differentiation' },
-  { name: 'a. Differentiating a polynomial — Part 1', walker: 'p.15', youtube: 'https://youtu.be/RE0xTvnEURs' },
-  { name: 'b. Differentiating a polynomial — Part 2', walker: 'p.15', youtube: 'https://youtu.be/tUNzHBCQAGI' },
-  { name: 'c. Calculate gradient — given x-value', walker: 'p.18', youtube: 'https://youtu.be/VFhnW3_Lo8Q' },
-  { name: 'd. Calculate gradient — given y-value', walker: 'p.20', youtube: 'https://youtu.be/cUNegbHQr8Y' },
-  { name: 'e. Equation of a tangent', walker: 'p.22', youtube: 'https://youtu.be/FmnfYXq0fWI' },
-  { name: 'f. Find points on curve given gradient', walker: 'p.24', youtube: 'https://youtu.be/vlkDHIvldNM' },
-  { name: 'g. Putting it all together', walker: 'p.26', youtube: '' },
-  { name: 'h. Turning points & their nature', walker: 'p.28', youtube: 'https://youtu.be/GdX2ftDWvDA' },
-  { name: 'i. Turning points & double differentiation', walker: 'p.28', youtube: 'https://youtu.be/wdtFfml8GSI' },
-  { name: 'j. Increasing & decreasing functions', walker: 'p.31', youtube: 'https://youtu.be/xhN_wfyUHaY' },
-  { name: 'k. Increasing & decreasing functions — questions', walker: 'p.31', youtube: 'https://youtu.be/VJauHw-GWV0' },
+  { name: 'a. Differentiating a polynomial — Part 1', walker: 'p.15', youtube: 'https://youtu.be/RE0xTvnEURs', cVideo: 'https://corbettmaths.com/2019/06/24/differentiation/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/07/Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/10/Differentiation-answers.pdf' },
+  { name: 'b. Differentiating a polynomial — Part 2 (after rearranging)', walker: 'p.15', youtube: 'https://youtu.be/tUNzHBCQAGI', cVideo: 'https://corbettmaths.com/2019/06/25/differentiation-after-rearranging/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/07/Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/10/Differentiation-answers.pdf' },
+  { name: 'c. Calculate gradient — given x-value', walker: 'p.18', youtube: 'https://youtu.be/VFhnW3_Lo8Q', cVideo: 'https://corbettmaths.com/2019/12/31/gradient-of-a-curve-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/07/Gradient-of-a-Curve-pdf.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/10/Gradient-of-Curve-answers.pdf' },
+  { name: 'd. Calculate gradient — given y-value', walker: 'p.20', youtube: 'https://youtu.be/cUNegbHQr8Y', cVideo: 'https://corbettmaths.com/2019/12/31/gradient-of-a-curve-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/07/Gradient-of-a-Curve-pdf.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/10/Gradient-of-Curve-answers.pdf' },
+  { name: 'e. Equation of a tangent', walker: 'p.22', youtube: 'https://youtu.be/FmnfYXq0fWI', cVideo: 'https://corbettmaths.com/2019/04/26/equation-of-a-tangent-to-a-curve/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/07/Equation-of-a-Tangent.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/10/Equation-of-a-Tangent-answers.pdf' },
+  { name: 'f. Find points on curve given gradient', walker: 'p.24', youtube: 'https://youtu.be/vlkDHIvldNM', cVideo: 'https://corbettmaths.com/2019/12/31/gradient-of-a-curve-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/07/Gradient-of-a-Curve-pdf.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/10/Gradient-of-Curve-answers.pdf' },
+  { name: 'g. Putting it all together', walker: 'p.26', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'h. Turning / stationary points & their nature', walker: 'p.28', youtube: 'https://youtu.be/GdX2ftDWvDA', cVideo: 'https://corbettmaths.com/2019/12/02/stationary-points-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Stationary-Points.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Stationary-Points-1.pdf' },
+  { name: 'i. Turning points & double differentiation', walker: 'p.28', youtube: 'https://youtu.be/wdtFfml8GSI', cVideo: 'https://corbettmaths.com/2019/12/02/stationary-points-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Stationary-Points.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Stationary-Points-1.pdf' },
+  { name: 'j. Increasing & decreasing functions', walker: 'p.31', youtube: 'https://youtu.be/xhN_wfyUHaY', cVideo: 'https://corbettmaths.com/2019/11/28/increasing-decreasing-functions-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Increasing-Decreasing-Function.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Increasing-Decreasing-Functions.pdf' },
+  { name: 'k. Increasing & decreasing functions — questions', walker: 'p.31', youtube: 'https://youtu.be/VJauHw-GWV0', cVideo: 'https://corbettmaths.com/2019/11/28/increasing-decreasing-functions-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Increasing-Decreasing-Function.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Increasing-Decreasing-Functions.pdf' },
 
   { group: '3. Applications' },
-  { name: 'a. Rates of change', walker: 'p.33', youtube: 'https://youtu.be/D_oxxlKput8' },
-  { name: 'b. Rate of change — given y-value', walker: 'p.33', youtube: 'https://youtu.be/j0BME5bJt28' },
-  { name: 'c. Rate of change — given the rate', walker: 'p.33', youtube: 'https://youtu.be/JzdtfzTAVzg' },
-  { name: 'd. Optimisation — Part 1', walker: 'p.39', youtube: 'https://youtu.be/7qr8ThvlO6U' },
-  { name: 'e. Optimisation — Part 2 (related variables)', walker: 'p.42', youtube: 'https://youtu.be/AmH62ymgwGU' },
+  { name: 'a. Rates of change', walker: 'p.33', youtube: 'https://youtu.be/D_oxxlKput8', cVideo: 'https://corbettmaths.com/2019/12/31/application-of-differentiation-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Application-of-Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Applying-Differentiation-Answers.pdf' },
+  { name: 'b. Rate of change — given y-value', walker: 'p.33', youtube: 'https://youtu.be/j0BME5bJt28', cVideo: 'https://corbettmaths.com/2019/12/31/application-of-differentiation-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Application-of-Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Applying-Differentiation-Answers.pdf' },
+  { name: 'c. Rate of change — given the rate', walker: 'p.33', youtube: 'https://youtu.be/JzdtfzTAVzg', cVideo: 'https://corbettmaths.com/2019/12/31/application-of-differentiation-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Application-of-Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Applying-Differentiation-Answers.pdf' },
+  { name: 'd. Optimisation — Part 1', walker: 'p.39', youtube: 'https://youtu.be/7qr8ThvlO6U', cVideo: 'https://corbettmaths.com/2019/12/31/application-of-differentiation-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Application-of-Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Applying-Differentiation-Answers.pdf' },
+  { name: 'e. Optimisation — Part 2 (related variables)', walker: 'p.42', youtube: 'https://youtu.be/AmH62ymgwGU', cVideo: 'https://corbettmaths.com/2019/12/31/application-of-differentiation-video/', cPractice: 'https://corbettmaths.com/wp-content/uploads/2019/11/Application-of-Differentiation-pdf-1.pdf', cAnswers: 'https://corbettmaths.com/wp-content/uploads/2019/11/Applying-Differentiation-Answers.pdf' },
 
   { group: '4. Anti-differentiation' },
-  { name: 'a. Anti-differentiating a polynomial', walker: 'p.52', youtube: '' },
-  { name: 'b. Calculating c — given a point on the original curve', walker: 'p.55', youtube: '' },
-  { name: 'c. Calculating c — given a point in a rate of change problem', walker: 'p.60', youtube: '' },
-  { name: 'd. Sketch original curve from gradient function graph', walker: 'p.63', youtube: '' },
+  { name: 'a. Anti-differentiating a polynomial', walker: 'p.52', youtube: '', cVideo: 'https://drive.google.com/open?id=150DTpEcplMgbIO0-ZPfKaPqez-T6bHqb', cPractice: '', cAnswers: '' },
+  { name: 'b. Calculating c — given a point on the original curve', walker: 'p.55', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'c. Calculating c — given a point in a rate of change problem', walker: 'p.60', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'd. Sketch original curve from gradient function graph', walker: 'p.63', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
 
   { group: '5. Kinematics' },
-  { name: 'a. Introduction & terminology', walker: 'p.67', youtube: '' },
-  { name: 'b. Differentiation in kinematics', walker: 'p.68', youtube: '' },
-  { name: 'c. Anti-differentiation — once to calculate c', walker: 'p.73', youtube: '' },
-  { name: 'd. Anti-differentiation — twice to find distance from acceleration', walker: 'p.78', youtube: '' },
+  { name: 'a. Introduction & terminology', walker: 'p.67', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'b. Differentiation in kinematics', walker: 'p.68', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'c. Anti-differentiation — once to calculate c', walker: 'p.73', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
+  { name: 'd. Anti-differentiation — twice to find distance from acceleration', walker: 'p.78', youtube: '', cVideo: '', cPractice: '', cAnswers: '' },
 ]
 
 function CalculusSkills() {
@@ -653,11 +654,12 @@ function CalculusSkills() {
       <section className="section">
         <h2 className="section-title">MAT201 Calculus — Skills Tracking Sheet</h2>
         <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', marginBottom: '0.75rem', lineHeight: 1.6 }}>
-          Use this sheet to track which skills you've mastered. Each row points you to the relevant section in the WalkerMaths Calculus workbook plus a direct link to the matching infinityplusone video walkthrough.
+          Use this sheet to track which skills you've mastered. Each row points you to the relevant section in the WalkerMaths Calculus workbook, the infinityplusone video walkthrough, and matching Corbettmaths video + practice questions.
         </p>
-        <div className="btn-row" style={{ justifyContent: 'flex-start', marginBottom: '1rem' }}>
+        <div className="btn-row" style={{ justifyContent: 'flex-start', marginBottom: '1rem', flexWrap: 'wrap' }}>
           <a href="/pdfs/calculus/workbooks/greenbook.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">WalkerMaths Calculus Workbook</a>
           <a href="https://www.youtube.com/playlist?list=PLGHMh2fiud5cX_4zKxn-PSgZ8jzw67kNL" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Full YouTube Playlist</a>
+          <a href="https://corbettmaths.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Corbettmaths Website</a>
         </div>
         <div className="table-scroll">
           <table className="skills-table">
@@ -665,22 +667,24 @@ function CalculusSkills() {
               <tr>
                 <th>Skill</th>
                 <th>WalkerMaths</th>
-                <th>YouTube Video</th>
+                <th>YouTube</th>
+                <th>Corbett Video</th>
+                <th>Practice</th>
+                <th>Answers</th>
               </tr>
             </thead>
             <tbody>
               {calculusSkills.map((row, i) =>
                 row.group ? (
-                  <tr className="skills-group" key={i}><td colSpan="3">{row.group}</td></tr>
+                  <tr className="skills-group" key={i}><td colSpan="6">{row.group}</td></tr>
                 ) : (
                   <tr key={i}>
                     <td className="skill-name">{row.name}</td>
                     <td>{row.walker || '—'}</td>
-                    <td>
-                      {row.youtube ? (
-                        <a href={row.youtube} target="_blank" rel="noopener noreferrer"><YouTube /> Watch</a>
-                      ) : '—'}
-                    </td>
+                    <td>{row.youtube ? <a href={row.youtube} target="_blank" rel="noopener noreferrer"><YouTube /> Watch</a> : '—'}</td>
+                    <td>{row.cVideo ? <a href={row.cVideo} target="_blank" rel="noopener noreferrer">Video</a> : '—'}</td>
+                    <td>{row.cPractice ? <a href={row.cPractice} target="_blank" rel="noopener noreferrer">PDF</a> : '—'}</td>
+                    <td>{row.cAnswers ? <a href={row.cAnswers} target="_blank" rel="noopener noreferrer">PDF</a> : '—'}</td>
                   </tr>
                 )
               )}
@@ -691,9 +695,10 @@ function CalculusSkills() {
       <section className="section">
         <InfoBox title="How to Use This Sheet">
           <ul>
-            <li><strong>Self-check:</strong> After each lesson, find the matching row and watch the video.</li>
+            <li><strong>Self-check:</strong> After each lesson, find the matching row and watch the videos.</li>
             <li><strong>WalkerMaths:</strong> Open the workbook to the listed page for written practice.</li>
-            <li><strong>YouTube videos:</strong> Walkthroughs by infinityplusone (Subash Chandar K).</li>
+            <li><strong>YouTube:</strong> Walkthroughs by infinityplusone (Subash Chandar K).</li>
+            <li><strong>Corbettmaths:</strong> Short video + printable practice sheet + answers.</li>
             <li><strong>Stuck?</strong> Bring the question to a lunch tutorial in S3.</li>
           </ul>
         </InfoBox>

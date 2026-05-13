@@ -718,26 +718,30 @@ function CalculusPapers() {
       </section>
       <section className="section">
         <h2 className="section-title">Revision Resources</h2>
+        <h3 style={{ color: '#d04a4a', marginTop: '1rem', marginBottom: '0.5rem' }}>Achieve & Merit</h3>
         <div className="cards">
-          <Card title="Achieve & Merit — Revision Sheets (with answers)" links={[
+          <Card variant="red" title="Achieve & Merit — Revision Sheets (with answers)" links={[
             { icon: <FileText />, text: 'Open PDF', href: '/pdfs/calculus/revision/revision-sheets-with-answers.pdf' },
           ]} />
+          <Card variant="red" title="ManvsMaths" note="Skills practice questions" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://www.manvsmaths.com/12/12_externals.html' },
+          ]} />
         </div>
-        </section>
+        <h3 style={{ color: '#4a6bd0', marginTop: '1.5rem', marginBottom: '0.5rem' }}>Exam-like Questions</h3>
+        <div className="cards">
+          <Card variant="blue" title="QuickMaths" note="A, M, E questions differentiated" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://www.quickmaths.co.nz/ncea-exam-resources/2-7-calculus' },
+          ]} />
+          <Card variant="blue" title="SnedMaths" note="Extra exam-like practice papers" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://sites.google.com/view/snedmaths/level-2/2-7-calculus-methods' },
+          ]} />
+        </div>
+      </section>
       <section className="section">
         <h2 className="section-title">Extra Online Resources & Further Exploration</h2>
         <div className="cards">
-          <Card title="QuickMaths" note="A, M, E questions differentiated" links={[
-            { icon: <Book />, text: 'Open Website', href: 'https://www.quickmaths.co.nz/ncea-exam-resources/2-7-calculus' },
-          ]} />
           <Card title="MathIsFun" note="Explanation for Calculus concepts" links={[
             { icon: <Book />, text: 'Open Website', href: 'https://www.mathsisfun.com/calculus/' },
-          ]} />
-          <Card title="SnedMaths" note="Extra exam-like practice papers" links={[
-            { icon: <Book />, text: 'Open Website', href: 'https://sites.google.com/view/snedmaths/level-2/2-7-calculus-methods' },
-          ]} />
-          <Card title="ManvsMaths" note="Skills practice questions" links={[
-            { icon: <Book />, text: 'Open Website', href: 'https://www.manvsmaths.com/12/12_externals.html' },
           ]} />
           <Card title="Infinity Plus One" note="Walkthroughs by Subash Chandar K (creator of the Skills videos)" links={[
             { icon: <Book />, text: 'Open Website', href: 'https://sites.google.com/view/infinityplusone/level-2/2-7-calculus' },

@@ -723,14 +723,29 @@ function CalculusPapers() {
             { icon: <FileText />, text: 'Open PDF', href: '/pdfs/calculus/revision/revision-sheets-with-answers.pdf' },
           ]} />
         </div>
-        <Collapsible title="Extra Online Resources & Further Exploration" links={[
-          { text: 'MathIsFun (For Explanation)', href: 'https://www.mathsisfun.com/calculus/' },
-          { text: 'SnedMaths', href: 'https://sites.google.com/view/snedmaths/level-2/2-7-calculus-methods' },
-          { text: 'QuickMaths (A, M, E differentiated questions)', href: 'https://www.quickmaths.co.nz/ncea-exam-resources/2-7-calculus' },
-          { text: 'ManvsMaths', href: 'https://www.manvsmaths.com/12/12_externals.html' },
-          { text: 'Infinity Plus One', href: 'https://sites.google.com/view/infinityplusone/level-2/2-7-calculus' },
-          { text: "CushlaThompson's YouTube Playlist", href: 'https://youtube.com/playlist?list=PLQpSTxqCx238Hgyvg6CqURz3GxN6M39ZX&si=Nfb--gOzww_vL92c' },
-        ]} />
+        </section>
+      <section className="section">
+        <h2 className="section-title">Extra Online Resources & Further Exploration</h2>
+        <div className="cards">
+          <Card title="QuickMaths" note="A, M, E questions differentiated" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://www.quickmaths.co.nz/ncea-exam-resources/2-7-calculus' },
+          ]} />
+          <Card title="MathIsFun" note="Plain-English explanations and worked examples" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://www.mathsisfun.com/calculus/' },
+          ]} />
+          <Card title="SnedMaths" note="Notes and worked examples for 2.7 Calculus methods" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://sites.google.com/view/snedmaths/level-2/2-7-calculus-methods' },
+          ]} />
+          <Card title="ManvsMaths" note="Comprehensive Level 2 externals notes" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://www.manvsmaths.com/12/12_externals.html' },
+          ]} />
+          <Card title="Infinity Plus One" note="Walkthroughs by Subash Chandar K (creator of the Skills videos)" links={[
+            { icon: <Book />, text: 'Open Website', href: 'https://sites.google.com/view/infinityplusone/level-2/2-7-calculus' },
+          ]} />
+          <Card title="CushlaThompson's YouTube" note="Calculus video playlist" links={[
+            { icon: <YouTube />, text: 'Open Playlist', href: 'https://youtube.com/playlist?list=PLQpSTxqCx238Hgyvg6CqURz3GxN6M39ZX&si=Nfb--gOzww_vL92c' },
+          ]} />
+        </div>
       </section>
       <section className="section">
         <h2 className="section-title">NZQA Past Papers</h2>

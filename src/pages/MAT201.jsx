@@ -803,7 +803,7 @@ export default function MAT201() {
           {
             label: '91259 Trigonometry', content: (
               <Tabs showChibi={false} tabs={[
-                { label: 'Lesson Content', content: <TrigLessons /> },
+                { label: 'Notes', content: <TrigLessons /> },
                 { label: 'General Info', content: <TrigInfo /> },
                 { label: 'Revision', content: <TrigRevision /> },
               ]} />
@@ -812,7 +812,7 @@ export default function MAT201() {
           {
             label: '91261 Algebra', content: (
               <Tabs showChibi={false} tabs={[
-                { label: 'Lesson Content', content: <AlgebraLessons /> },
+                { label: 'Notes', content: <AlgebraLessons /> },
                 { label: 'Skills', content: <AlgebraSkills /> },
                 { label: 'General Info', content: <AlgebraInfo /> },
                 { label: 'Revision Resources & Past Papers', content: <AlgebraPapers /> },
@@ -822,7 +822,7 @@ export default function MAT201() {
           {
             label: '91262 Calculus', content: (
               <Tabs showChibi={false} tabs={[
-                { label: 'Lesson Content', content: <CalculusLessons /> },
+                { label: 'Notes', content: <CalculusLessons /> },
                 { label: 'Skills', content: <CalculusSkills /> },
                 { label: 'Revision Resources & Past Papers', content: <CalculusPapers /> },
               ]} />

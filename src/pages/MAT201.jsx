@@ -506,6 +506,10 @@ function AlgebraPapers() {
             { icon: <FileText />, text: 'Paper', href: '/pdfs/algebra/formative/formative-term2-2023.pdf' },
             { icon: <FileText />, text: 'Answers', href: '/pdfs/algebra/formative/formative-term2-2023-answers.pdf' },
           ]} />
+          <Card title="Formative (Term 2) 2026" links={[
+            { icon: <FileText />, text: 'Paper', href: '/pdfs/algebra/formative/formative-2026.pdf' },
+            { icon: <FileText />, text: 'Marking Schedule', href: '/pdfs/algebra/formative/formative-2026-schedule.pdf' },
+          ]} />
         </div>
       </section>
       <section className="section">

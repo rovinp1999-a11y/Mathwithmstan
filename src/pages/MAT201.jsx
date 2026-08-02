@@ -654,10 +654,10 @@ function CalculusSkills() {
       <section className="section">
         <h2 className="section-title">MAT201 Calculus — Skills Tracking Sheet</h2>
         <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', marginBottom: '0.75rem', lineHeight: 1.6 }}>
-          Use this sheet to track which skills you've mastered. Each row points you to the relevant section in the WalkerMaths Calculus workbook, the infinityplusone video walkthrough, and matching Corbettmaths video + practice questions.
+          Use this sheet to track which skills you've mastered. Each row points you to the infinityplusone video walkthrough, and matching Corbettmaths video + practice questions.
         </p>
         <div className="btn-row" style={{ justifyContent: 'flex-start', marginBottom: '1rem', flexWrap: 'wrap' }}>
-          <a href="/pdfs/calculus/workbooks/greenbook.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">WalkerMaths Calculus Workbook</a>
+
           <a href="https://www.youtube.com/playlist?list=PLGHMh2fiud5cX_4zKxn-PSgZ8jzw67kNL" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Full YouTube Playlist</a>
           <a href="https://corbettmaths.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Corbettmaths Website</a>
         </div>
@@ -666,7 +666,7 @@ function CalculusSkills() {
             <thead>
               <tr>
                 <th>Skill</th>
-                <th>WalkerMaths</th>
+                
                 <th>YouTube</th>
                 <th>Corbett Video</th>
                 <th>Practice</th>
@@ -696,7 +696,7 @@ function CalculusSkills() {
         <InfoBox title="How to Use This Sheet">
           <ul>
             <li><strong>Self-check:</strong> After each lesson, find the matching row and watch the videos.</li>
-            <li><strong>WalkerMaths:</strong> Open the workbook to the listed page for written practice.</li>
+  
             <li><strong>YouTube:</strong> Walkthroughs by infinityplusone (Subash Chandar K).</li>
             <li><strong>Corbettmaths:</strong> Short video + printable practice sheet + answers.</li>
             <li><strong>Stuck?</strong> Bring the question to a lunch tutorial in S3.</li>

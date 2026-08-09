@@ -41,14 +41,14 @@ const PRACTICE_LINKS = [
    Total: out of 27
 ================================================================ */
 const STUDENTS = [
-  { name: "Amelia Adams",           scores: [1,2,2,3,1,3,3], total: 17 },
-  { name: "Digantara Balachandran", scores: [2,2,1,3,2,1,2], total: 11 },
-  { name: "Caleb Blaikie",          scores: [3,3,3,2,3,3,3], total: 26 },
+  { name: "Student 1",           scores: [1,2,2,3,1,3,3], total: 17 },
+  { name: "Student 2", scores: [2,2,1,3,2,1,2], total: 11 },
+  { name: "Student 3",          scores: [3,3,3,2,3,3,3], total: 26 },
   { name: "Gracie Brewer",          scores: [1,1,1,1,1,1,1], total: 5  },
   { name: "Hudson Brovelli",        scores: [3,2,2,2,1,2,3], total: 20 },
   { name: "Kasper Campbell",        scores: [2,2,1,2,1,1,2], total: 12 },
   { name: "Ollie Conlan",           scores: [1,1,1,1,1,1,1], total: 6  },
-  { name: "Quinn Davy",             scores: [2,2,1,2,2,3,2], total: 16 },
+  { name: "Student 8",             scores: [2,2,1,2,2,3,2], total: 16 },
   { name: "Maddie Deidda",          scores: [2,2,1,3,1,1,2], total: 10 },
   { name: "Cam Dix",                scores: [2,3,2,2,3,1,2], total: 19 },
   { name: "Isla Edmond",            scores: [2,2,3,2,2,1,3], total: 16 },
